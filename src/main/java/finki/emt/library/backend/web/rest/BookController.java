@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://emt-182031-frontend.herokuapp.com")
 @RequestMapping("/api/books")
 public class BookController {
     private final BookService bookService;
